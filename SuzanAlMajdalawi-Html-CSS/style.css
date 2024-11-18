@@ -1,0 +1,115 @@
+* {
+    margin: initial;
+    padding: 0;    
+    bottom: 32px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2c6c6;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    width: 1900px; /* Set the width to 1900px */
+    height: 1983px; /* Set the height to 1983px */
+    margin-bottom: 64px; /* Creates 64px space at the bottom of the body */
+    margin-top: 0px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
+
+.container {
+    position: relative;    
+    width: 1280px;
+    height: 1919px;
+
+    top: 0;
+    padding: 0px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+    overflow: hidden;
+}
+
+.recipe-card {
+    padding:64px;
+}
+
+.recipe-card h2 {
+    margin-top: 64px;
+    font-size: 40px;
+    color: #a10000;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.descriptionBox {
+    text-align: left;
+    background-color: #ebebeb;
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 32px;
+    padding: 32px;
+}
+
+.ingredients, .instructions {
+    margin-bottom: 32px;
+    gap: 64px;
+}
+
+.suggestions{
+    margin-bottom: 32px;
+    gap: 32px;
+}
+
+.ingredients h3, .instructions h3, .suggestions h3 {
+    text-align: left;
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 20px;
+    gap: 20px; 
+}
+
+.ingredients ul, .instructions ol {
+    padding-left: 32px;
+    line-height: 1.6;
+    color: #333;
+    gap: 20px;
+}
+
+.suggestions .images {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.suggestions img {
+    width: 48%;
+    
+}
+
+.suggestions h2 {
+
+    margin-top: 32px;
+    font-size: 30px;
+    color: #a10000;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.recipe-card-serving {
+    padding: 32px;
+}
+
+.recipe-card-serving h2 {
+
+    font-size: 30px;
+    color: #a10000;
+    text-align: center;
+    margin-bottom: 11px;
+}
