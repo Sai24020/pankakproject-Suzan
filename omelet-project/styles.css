@@ -1,0 +1,124 @@
+* {
+    margin: initial;
+    padding: 0;    
+    bottom: 32px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: serif, sans-serif;
+    background-color: #f2c6c6;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    width: 1900px; /* Set the width to 1900px */
+    height: 1983px; /* Set the height to 1983px */
+    margin-bottom: 64px; /* Creates 64px space at the bottom of the body */
+    margin-top: 0px;
+    /*margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;*/
+}
+
+        .container {
+            max-width: 800px; 
+            margin: 20px auto; 
+            padding: 32px;
+            background-color: #fff; 
+            border-radius: 10px; 
+            border-radius: 10px;
+            gap: 64px;
+        }
+
+        .recipe-title {
+            font-size: 56px; 
+            margin-top: 20px;
+            margin-bottom: 10px;
+            margin-left: 20px;
+            color: #black; 
+        }
+
+        .recipe-image img {
+            width: 100%; 
+            border-radius: 10px; 
+        }
+
+        .recipe-description {
+            font-size: 1.2em; 
+            margin: 10px 0;
+             margin-top: 20px;
+        }
+
+        .ingredients, .instructions {
+            margin: 20px 0;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+         .preparation {
+            color: darkred;
+          
+             background-color: #f8e5e5;
+              border-radius: 10px;
+              gap: 30px;
+              margin-left: 10px;
+              text-align: left;
+             
+              font-display: 20px;
+
+        }
+          .preparation h2 {
+          margin-left: 30px;
+        }
+        .section-title {
+            font-size: 64; 
+            color: darkred;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+
+        .Nutrition-table {
+          font-family: `Arial`, sans-serif;
+          margin: 20px;
+          padding: 15px;
+          border-radius: 5px;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+
+        .section-title .a {
+         font-size: 32px;
+         margin-bottom: 15px;
+
+        }
+        
+
+        table {
+         width: 100%;
+         border-collapse: collapse;
+         font-size: 25px;
+         color: black;
+        }
+
+
+        table td {
+         padding: 10px 15px;
+         border-bottom: 1px solid #ddd;
+        }
+
+
+        table td:nth-child(2) {
+         text-align: right;
+         font-weight: bold;
+         color: black;
+        }
+        ul {
+            list-style-type: disc; 
+            margin-left: 40px; 
+            line-height: 2;
+        }
+         ol {
+            list-style-type: inline; 
+            margin-left: 40px; 
+            line-height: 2;
+        }
