@@ -9,15 +9,19 @@
 </head>
 <body>
         
-<div class="container">
+<article class="container">
+    <header>
+        <picture>
+            <source srcset="pancake.jpg" media="(max-width)">
     <!-- Add the main image at the top -->
-    <img src="pancake.jpg" alt="Pannkakor" class="main-image">
-
-    <div class="recipe-card">    
+            <img src="pancake.jpg" alt="Pannkakor" class="main-image">
+        </picture>
+    </header>
+    <section class="recipe-card">    
         <h2>Enkelt recept på pannkakor</h2>
         <p class="descriptionBox">Gör traditionella tunna pannkakor med detta enkla och goda pannkaksrecept.</p>
         
-        <div class="ingredients">
+        <section class="ingredients">
             <h3>Ingredienser (4 port)</h3>
             <ul>
                 <li>2 ½ dl vetemjöl</li>
@@ -27,9 +31,9 @@
                 <li>2 msk smör till stekning</li>
                 <li>Sylt och bär/frukt till servering</li>
             </ul>
-        </div>
+        </section>
 
-        <div class="instructions">
+        <section class="instructions">
             <h3>Så här gör du</h3>
             <ol>
                 <li>Blanda mjöl och salt i en bunke.</li>
@@ -39,18 +43,28 @@
                 <li>Stek tunna pannkakor i smör på hög värme.</li>
                 <li>Servera med sylt, bär eller frukt!</li>
             </ol>
-        </div>
+        </section>
 
-        <div class="suggestions">
+        <section class="suggestions">
             <h3>Serveringsförslag</h3> 
+            
+            <picture>
             <div class="images">
+                <source srcset="pancake1.jpg" media="(max-width)">
                 <img src="pancake1.jpg" alt="Pannkakor med bär och sylt">
+                <source srcset="pancake2.jpg" media="(max-width)">
                 <img src="pancake2.jpg" alt="Pannkakor med frukt och honung">
             </div>
-        </div>
-    </div>
+            </picture>
 
-</div>
+            <footer>
+                <nav>
+                    <a href="#"> <center> UPP </center> </a></nav>
+            </footer>
+        </section>
+    </section>
+
+</article>
 
 
 </body>
